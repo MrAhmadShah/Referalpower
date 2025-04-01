@@ -1,3 +1,4 @@
+/* General Body Styling */
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(90deg, rgba(255,182,193,1) 0%, rgba(255,105,180,1) 100%);
@@ -6,6 +7,7 @@ body {
     text-align: center;
 }
 
+/* Header Styling */
 header {
     background-color: #ff69b4;
     color: white;
@@ -16,6 +18,7 @@ h1 {
     font-size: 3rem;
 }
 
+/* Button Styling */
 button {
     background-color: #ff69b4;
     color: white;
@@ -31,6 +34,7 @@ button:hover {
     background-color: #ff1493;
 }
 
+/* Referral Section */
 #referral-section {
     margin-top: 20px;
 }
@@ -41,14 +45,46 @@ button:hover {
     font-size: 1.2rem;
 }
 
+/* WhatsApp Section */
 #whatsapp-section {
     margin-top: 20px;
 }
 
+/* Flight Mode Notification */
 #flight-mode-notification {
     background-color: #f44336;
     color: white;
     padding: 10px;
     margin-top: 20px;
     font-size: 1.2rem;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* 3D Stylish Footer Text */
+.footer-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), 3px 3px 5px rgba(0, 0, 0, 0.2), 4px 4px 5px rgba(0, 0, 0, 0.1);
+    transform: rotate(-1deg);
+    transition: transform 0.3s ease;
+}
+
+.footer-text:hover {
+    transform: rotate(0deg) scale(1.1);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5), 6px 6px 8px rgba(0, 0, 0, 0.4);
 }
